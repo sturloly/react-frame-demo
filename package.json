@@ -5,6 +5,7 @@
   "author": "Cory House",
   "license": "MIT",
   "scripts": {
+    "prestart":"babel-node tools/startMessage.js",
     "start":"babel-node tools/srcServer.js"
   },
   "dependencies": {
