@@ -6,15 +6,17 @@ class App extends React.Component {
     return (
       <div className="container-fluid">
         <p>Header here...</p>
-        {this.props.children} // components from routes as props.child passed into app
-      </dvb>
+        {this.props.children}
+      </div>
     );
   }
 }
 
 // prop type validation
 App.propTypes = {
-  children: propTypes.object.isRequired
+  children: PropTypes.object.isRequired
 };
 
 export default App;
+
+// {this.props.children} components from routes as props.child passed into app
