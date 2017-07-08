@@ -6,7 +6,7 @@ class App extends React.Component {
     return (
       <div className="container-fluid">
         <p>Header here...</p>
-        {this.props.children}
+        {this.props.children} // components from routes as props.child passed into app
       </dvb>
     );
   }
